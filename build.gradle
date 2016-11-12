@@ -8,7 +8,7 @@ mainClassName = 'Game'
 sourceSets.main.java.srcDirs = ['src']
 sourceSets.main.resources.srcDirs = ['res']
 
-sourceCompatibility = 1.5
+sourceCompatibility = 1.7
 
 ext.buildNumber = System.getenv("BUILD_NUMBER") ?: "dev"
 version 'Stable'
